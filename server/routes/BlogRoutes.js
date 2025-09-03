@@ -1,6 +1,6 @@
 import express from 'express'
 import { addBlog, addComment, deleteBlogByID, generateContent, getallBlogs, getBlogByID, getBlogComment, togglePublish } from '../controllers/BlogController.js'
-import upload from '../middlewares/Multer.js';
+import upload from '../middlewares/multer.js';
 import auth from '../middlewares/auth.js';
  
  
